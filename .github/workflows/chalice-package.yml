@@ -32,3 +32,4 @@ jobs:
       run: |
           pip install chalice
           chalice package --pkg-format terraform .
+          ls
